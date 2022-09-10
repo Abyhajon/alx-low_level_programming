@@ -16,19 +16,21 @@ int main(void)
 
 {
 
-	int ch;
+	char low, e, q;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	e = 'e';
+	q = 'q';
+
+
+
+	for (low = 'a'; low <= 'z'; low++)
+		
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		{
-		else
-		{
-		}
-	}
+
+
+
 	putchar('\n');
+
 	return (0);	
 						
 
