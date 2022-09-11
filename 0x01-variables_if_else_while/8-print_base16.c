@@ -1,19 +1,14 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
 
 /**
- *
  * main - Entry point
  *
- *
+ * Description - serves as the starting point for the program execution
  *
  * Return: Always 0 (Success)
- *
  */
-
 int main(void)
 
 {
