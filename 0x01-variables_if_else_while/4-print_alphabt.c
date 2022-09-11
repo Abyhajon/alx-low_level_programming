@@ -3,13 +3,11 @@
 #include <unistd.h>
 
 /**
+ * main - Entry point
  *
- *  * main - Entry point
+ * Description - serves as the starting point for program execution
  *
- *   * Description: prints lowercase alphabets
- *
- *    * Return: Always 0 (success)
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
