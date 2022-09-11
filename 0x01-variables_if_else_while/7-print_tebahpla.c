@@ -3,15 +3,12 @@
 #include <time.h>
 
 /**
- *
  * main - Entry point
  *
- *
+ * Description - serves as the starting point of a program
  *
  * Return: Always 0 (Success)
- *
  */
-
 int main(void)
 
 
