@@ -5,19 +5,13 @@
 #include <time.h>
 
 
-
 /**
- *
  * main - Entry point
  *
- *
+ * Description - starting point of program execution
  *
  * Return: Always 0 (Success)
- *
  */
-
-
-
 int main(void)
 
 {
