@@ -1,30 +1,50 @@
 #include "main.h"
 
 /**
- * _strncat - concatinates two strings
- * @dest: first input
- * @src: second input
- * @n: maximum length to be appended from src
- * Description - it appends value of src to the value of dest till nth element
- *
- * Return: dest
+ * _strncat - two words
+ * @dest : pointer to char param
+ * @src : pointer to char param
+ * @n : int parameter
+ * Return: *dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-	int len = 0;
 
-	while (dest[len] != '\0')
+	int m;
+	int i;
+
+
+	m = 0;
+
+
+
+	for (i = 0; i < 1000; i++)
 	{
-		len++;
+
+		if (dest[i] == '\0')
+
+		{
+
+			break;
+
+		}
+
+		m++;
+
 	}
 
-	while (src[i] != '\0' && src[i] < n)
+
+
+	for (i = 0; src[i] != '\0' && i < n; i++)
+
 	{
-		i++;
-		dest[len + i] = src[i];
+
+		dest[m + i] = src[i];
+
 	}
+
+	dest[m + i] = '\0';
 
 	return (dest);
-}
 
+}
