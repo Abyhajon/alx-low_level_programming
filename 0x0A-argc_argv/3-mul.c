@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int mul, i, j;
+
 	if (argc == 3)
 	{
 		j = atoi(argv[1]);
