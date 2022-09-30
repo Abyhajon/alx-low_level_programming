@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		i = atoi(argv[2]);
 
 		mul = j * i;
-		printf("%d", mul);
+		printf("%d\n", mul);
 	}
 
 	return (0);
