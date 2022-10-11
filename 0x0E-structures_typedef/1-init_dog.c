@@ -3,7 +3,7 @@
 
 /**
  * init_dog - initializes var type dog
- * @*d: pointer to dog structure
+ * @d: pointer to dog structure
  * @name: dog name
  * @age: dog's age
  * @owner: dog's owner
