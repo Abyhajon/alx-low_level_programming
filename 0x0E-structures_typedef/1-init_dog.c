@@ -8,18 +8,17 @@
  * @age: dog's age
  * @owner: dog's owner
  *
- * Description: function initializes var type of dog 
- * 
+ * Description: function initializes var type of dog
+ *
  * Return: 0
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
-		d -> name = name;
-		d -> age = age;
-		d -> owner = owner;
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
 	}
-
 
 }
