@@ -3,10 +3,9 @@
 
 /**
  * free_dog - free dog memory
- * @dog_t: structure
  * @d: pointer to struct dog
  *
- * Description: frees memory allocated to dog_t
+ * Description: frees memory allocated
  *
  * Return: void
  */
