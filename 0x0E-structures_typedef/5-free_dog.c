@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_dog - free dog_t
+ * free_dog - free dog memory
  * @dog_t: structure
  * @d: pointer to struct dog
  *
