@@ -4,15 +4,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
 /**
- * struct listint_s - Singly linked list
+ * struct listint_t - Singly linked list
  * @n: integer stored at the node
  * @index: index of node in list
  * @next: pointer to next node
  *
  * Description: singly linked list node sturcture
  */
-
 typedef struct listint_t
 {
 	/* integer stored at the node*/
@@ -20,11 +20,11 @@ typedef struct listint_t
 	/* index of the node in the list*/
 	size_t index;
 	/* pointer to next node*/
-	struct  listint_t*next;
+	struct  listint_t *next;
 } listint_t;
 
 /**
- * struct skiplist_t - Singly linked list with an express lane
+ * struct skiplist_s - Singly linked list with an express lane
  *
  * @n: Integer
  * @index: Index of the node in the list
